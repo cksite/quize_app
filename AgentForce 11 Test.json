@@ -1,0 +1,95 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "Universal Containers (UC) needs to capture and store detailed interaction data for all agents. Which feature should help UC get a full view of the agent's behavior from start to finish, including reasoning engine executions, actions, prompt and gateway inputs/outputs, error messages, and final responses?",
+      "options": [
+        "Utterance Analysis",
+        "Agentforce Session Tracing",
+        "Agentforce Analytics"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers wants to keep retrieval accurate as product documentation changes frequently. Which approach should the company implement?",
+      "options": [
+        "Rebuild the search index.",
+        "Manually delete the stale data chunks.",
+        "Leave embeddings unchanged even if content is updated."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers (UC) is preparing and defining success criteria for Agentforce Testing Center test cases. Which details should UC specify as the expected output to ensure the tests accurately reflect the agent's functionality?",
+      "options": [
+        "Expected Topic API Name",
+        "Expected Flow API Name",
+        "Expected Prompt Template Name"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "An Agentforce Specialist at Universal Containers (UC) is building with no-code tools only. They have many small accounts that are only touched periodically by a specialized sales team, and UC wants to maximize the sales operations team's time. UC wants to help prep the sales team for calls by: Summarizing past purchases; Displaying products the contact has shown interest in (with data captured via Data Cloud); Providing a recap of past email and phone conversations that have transcripts. Which approach should the Agentforce Specialist recommend to achieve this goal?",
+      "options": [
+        "Deploy UC's own custom foundational model on this data first.",
+        "Use a prompt template grounded on CRM and Data Cloud data using standard foundation models.",
+        "Fine tune the standard foundational model due to the complexity of the data."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers (UC) wants to ensure its compliance team can retrieve exact matches of policy clause numbers from a structured legal document library. Which search type should UC implement?",
+      "options": [
+        "Use hybrid search to blend keyword and semantic recall.",
+        "Use keyword search for exact term matching on structured fields like clause numbers.",
+        "Use semantic search to interpret synonyms of clauses dynamically."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "A company wants to retrieve patient history details to augment the AI agent response. The company wants to leverage the Data Cloud search index feature. What is best practice when considering retrieval-augmented generation (RAG) for information that may contain personally identifiable information (PII)?",
+      "options": [
+        "Mask sensitive fields and index only non-PII data.",
+        "Depend on the agent's prompt to avoid exposing PII.",
+        "Encrypt embeddings, but still index PII records."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Sales reps at Universal Containers should not be able to create or edit prompt templates. Which permission set should an Agentforce Specialist assign to the sales reps?",
+      "options": [
+        "Prompt Template User",
+        "Prompt Template Manager",
+        "Prompt Execute User"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers' service team wants to customize the standard case summary response from Agentforce. What should the Agentforce Specialist do to achieve this?",
+      "options": [
+        "Customize the standard Record Summary template for the Case object.",
+        "Create a custom Record Summary prompt template for the Case object.",
+        "Summarize the Case with a standard agent action."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers (UC) has a new AI project. What should UC consider when adding a related list on the Account object to be used in the prompt template?",
+      "options": [
+        "The fields for the related list are based on the default page layout of the Account for the current user.",
+        "After selecting a related list from the Account, use the field picker to choose merge fields in Prompt Builder.",
+        "Prompt Builder must be used to assign the fields from the related list as a JSON format."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers deploys a new Agentforce Service Agent into the company's website but is getting feedback that the Service Agent is not providing answers to customer questions that are found in the company's Salesforce Knowledge articles. What is the likely issue?",
+      "options": [
+        "The Agentforce Service Agent user needs to be created under the standard Agent Knowledge profile.",
+        "The Agentforce Service Agent user was not given the Allow View Knowledge permission set.",
+        "The Agentforce Service Agent user is not assigned the correct Agent Type License."
+      ],
+      "correct_index": 1
+    }
+  ]
+}

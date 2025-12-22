@@ -1,0 +1,86 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "Universal Containers (UC) needs to create a custom prompt template that can be called from a Lightning web component. Which prompt template type should UC create?",
+      "options": [
+        "Field Generation",
+        "Sales Email",
+        "Flex"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "In Model Playground, which hyperparameters of an existing Salesforce-enabled foundational model can an Agentforce Specialist change?",
+      "options": [
+        "Temperature, Frequency Penalty, Presence Penalty",
+        "Temperature, Top-k sampling, Presence Penalty",
+        "Temperature, Frequency Penalty, Output Tokens"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "What is a valid use case for Data Cloud retrievers?",
+      "options": [
+        "Returning relevant data from the vector database to augment a prompt.",
+        "Grounding data from external websites to augment a prompt with RAG.",
+        "Modifying and updating data within the source systems connected to Data Cloud."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Support agents at Universal Containers are using Agentforce to find troubleshooting information but are frequently receiving outdated Knowledge articles even when newer versions exist. Which configuration change in the Data Cloud hybrid search index best addresses this problem?",
+      "options": [
+        "Disable the keyword index to rely solely on the vector index.",
+        "Switch the chunking strategy from section-aware to fixed-size.",
+        "Add a ranking factor for recency based on the LastModifiedDate field."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers (UC) wants to limit an agent's access to Knowledge articles while deploying the \"Answer Questions with Knowledge\" action. How should UC achieve this?",
+      "options": [
+        "Define scope instructions to the agent specifying a list of allowed article titles or IDs.",
+        "Update the Data Library Retriever to filter on a custom field on the Knowledge article.",
+        "Assign Data Categories to Knowledge articles, and define Data Category filters in the Agentforce Data Library."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers (UC) noticed an increase in customer contract cancellations in recent months and wants to implement proactive outreach before customers cancel. Which Model Builder use case aligns with this requirement?",
+      "options": [
+        "Product recommendation prediction",
+        "Customer churn prediction",
+        "Contract Renewal Date prediction"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers wants to use an existing prompt template inside Flow as part of automation. Which option should be used?",
+      "options": [
+        "Invocable Apex",
+        "Einstein for Flow",
+        "Flow action"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers (UC) uses Salesforce Service Cloud and is considering implementing Agent and extending Service Cloud to mobile users. When would Agent implementation be most advantageous?",
+      "options": [
+        "When the goal is to streamline customer support processes and improve response times",
+        "When the main objective is to enhance data security and compliance measures",
+        "When the focus is on optimizing marketing campaigns and strategies"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "An Agentforce Specialist is working on a prompt template to generate personalized emails for product demonstration requests and wants strict adherence to guidelines using only opportunity data. How should instructions be added on a new line in the prompt template?",
+      "options": [
+        "Surround them with triple quotes (\"\"\")",
+        "Make sure merged fields are defined",
+        "Use curly brackets {} to encapsulate instructions"
+      ],
+      "correct_index": 0
+    }
+  ]
+}

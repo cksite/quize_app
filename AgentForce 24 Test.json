@@ -1,0 +1,95 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "Universal Containers wants to reduce overall customer support handling time by minimizing the time spent typing routine answers for common questions in-chat, and reducing the post-chat analysis by suggesting values for case fields. Which combination of Agentforce for Service features enables this effort?",
+      "options": [
+        "Einstein Reply Recommendations and Case Classification",
+        "Einstein Reply Recommendations and Case Summaries",
+        "Einstein Service Replies and Work Summaries"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "An Agentforce wants to ground a new prompt template with the User related list. What should the Agentforce Specialist consider?",
+      "options": [
+        "The User related list should have View All access.",
+        "The User related list needs to be included on the record page.",
+        "The User related list is not supported in prompt templates."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "An Agentforce is creating a custom action for Agentforce. Which setting should ensure the action performs as expected?",
+      "options": [
+        "Action Name",
+        "Action Input",
+        "Action Instructions"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "How does the Einstein Trust Layer ensure that sensitive data is protected while generating useful and meaningful responses?",
+      "options": [
+        "Masked data will be de-masked during response journey.",
+        "Masked data will be de-masked during request journey.",
+        "Responses that do not meet the relevance threshold will be automatically rejected."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers (UC) currently tracks Leads with a custom object. UC is preparing to implement the Sales Development Representative (SDR) Agent. Which consideration should UC keep in mind?",
+      "options": [
+        "Agentforce SDR only works with the standard Lead object.",
+        "Agentforce SDR only works on Opportunities.",
+        "Agentforce SDR only supports custom objects associated with Accounts."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "When configuring a prompt template, an Agentforce Specialist previews the results of the prompt template they've written. They see two distinct text outputs: Resolution and Response. Which information does the Resolution text provide?",
+      "options": [
+        "It shows the full text that is sent to the Trust Layer.",
+        "It shows the response from the LLM based on the sample record.",
+        "It shows which sensitive data is masked before it is sent to the LLM."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers has a requirement to provide a sales summary for its sales reps who are using Employee Agents, but they are not happy with the default answer. Which best practice should the AgentForce Specialist recommend?",
+      "options": [
+        "Create a Record Summary custom prompt template.",
+        "Create a Knowledge Answer custom prompt template.",
+        "Update the standard record summary action."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers wants its AI agent to answer customer questions with precise and up-to-date information. How does an Agentforce Data Library simplify and enable this?",
+      "options": [
+        "It automates the ingestion, taxonomical classification and storage of knowledge in Data Cloud for precision keyword search retrieval to ground prompts and agents with relevant information.",
+        "It automates the ingestion, indexing of data, and creates a default retriever to be used in prompts and agents for grounding with relevant information.",
+        "It automates the ingestion and optical character recognition (OCR) processing of any PDF, and indexes them to enable regular SQL query retrieval to ground prompts and agents with relevant information."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers implemented Agent for its users. One user complains that Agent is not deleting activities from the past 7 days. What is the reason for this issue?",
+      "options": [
+        "Agent Delete Record Action permission is not associated to the user.",
+        "Agent does not have the permission to delete the user's records.",
+        "Agent does not support the Delete Record action."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers wants to implement a solution in Salesforce with a custom UX that allows users to enter a sales order number. Subsequently, the system will invoke a custom prompt template to create and display a summary of the sales order header and sales order details. Which solution should an Agentforce Specialist implement to meet this requirement?",
+      "options": [
+        "Create an autolaunched flow and invoke the prompt template using the standard \"Prompt Template\" flow action.",
+        "Create a template-triggered prompt flow and invoke the prompt template using the standard \"Prompt Template\" flow action.",
+        "Create a screen flow to collect the sales order number and invoke the prompt template using the standard \"Prompt Template\" flow action."
+      ],
+      "correct_index": 2
+    }
+  ]
+}

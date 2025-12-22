@@ -1,0 +1,105 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "An Agentforce wants to use the related lists from an Account in a custom prompt template.\n\nWhat should the Agentforce Specialist consider when configuring the prompt template?",
+      "options": [
+        "The text encoding option such as UTF-8 or ASCII.",
+        "The maximum number of related list merge fields.",
+        "The choice between XML and JSON rendering formats for the list."
+      ],
+      "correct_index": 1,
+      "explanation": "Prompt templates have limits on how many related list merge fields can be included, which must be considered during configuration."
+    },
+    {
+      "question": "Universal Containers (UC) is preparing to use the Agentforce Testing Center to ensure the reliability of a new agent. UC has a CSV file with test cases and is reviewing the documentation to understand best practices and limitations.\n\nWhich best practice should the company follow to avoid modifying CRM data while running tests in the Testing Center?",
+      "options": [
+        "Run tests in the production environment to ensure real-time data accuracy.",
+        "Limit the number of test cases to 50 per test to minimize data changes.",
+        "Use the Testing Center only in the sandbox environment."
+      ],
+      "correct_index": 2,
+      "explanation": "Running tests in a sandbox environment prevents unintended modifications to production CRM data."
+    },
+    {
+      "question": "Universal Containers (UC) is implementing Agentforce Service Agent on Email. UC made an email template and now needs to connect it to a Service Agent.\n\nWhat should an Agentforce Specialist recommend?",
+      "options": [
+        "Create an Email Configuration for the Service Agent.",
+        "Create an Omni-Channel flow to point to an email template.",
+        "No action needed; the Service Agent connects automatically."
+      ],
+      "correct_index": 0,
+      "explanation": "An Email Configuration is required to connect an email template to an Agentforce Service Agent."
+    },
+    {
+      "question": "Universal Containers deploys a new Agentforce Service Agent into the company's website but is getting feedback that the Service Agent is not providing answers to customer questions that are found in the company’s Salesforce Knowledge articles.\n\nWhat is the likely issue?",
+      "options": [
+        "The Agentforce Service Agent user was not given the Allow View Knowledge permission set.",
+        "The Agentforce Service Agent user is not assigned the correct Agent Type License.",
+        "The Agentforce Service Agent user needs to be created under the standard Agent Knowledge profile."
+      ],
+      "correct_index": 0,
+      "explanation": "The Service Agent user must have permission to view Knowledge articles to provide Knowledge-based responses."
+    },
+    {
+      "question": "What is the purpose of applying filters in a custom retriever configuration?",
+      "options": [
+        "Filters narrow the search results by applying up to 10 conditions based on fields defined in the search index, thereby enhancing the relevancy of the content returned.",
+        "Filters automatically encrypt and mask sensitive fields in the search index.",
+        "Filters reformat and aggregate multiple documents into a single summary output."
+      ],
+      "correct_index": 0,
+      "explanation": "Filters restrict the search scope to relevant data, improving the quality of retrieved results."
+    },
+    {
+      "question": "Universal Containers (UC) configured a new PDF file ingestion in Data Cloud with all the required fields, and also created the mapping and the search index. UC is now setting up the retriever and notices a required field is missing.\n\nHow should UC resolve this?",
+      "options": [
+        "Create a new custom Data Cloud object that includes the desired field.",
+        "Update the search index to include the desired field.",
+        "Modify the retriever's configuration to include the desired field."
+      ],
+      "correct_index": 1,
+      "explanation": "The retriever can only access fields that are included in the search index, so the index must be updated."
+    },
+    {
+      "question": "What is the correct process to leverage Prompt Builder in a Salesforce org?",
+      "options": [
+        "Select the appropriate prompt template type, develop the prompt in the prompt workspace, select resources to dynamically insert CRM-derived grounding data, pick the model to use, and test and validate the generated responses.",
+        "Enable the target object for generative prompting, develop the prompt, select records to fine-tune the response, enable the Trust Layer, and associate the prompt to an action.",
+        "Select one of Salesforce's standard prompts, associate it to an object, validate against a record, and associate it to an action."
+      ],
+      "correct_index": 0,
+      "explanation": "Prompt Builder follows a structured process of selecting a template type, grounding data, model selection, and testing."
+    },
+    {
+      "question": "Universal Containers tests a new Einstein Generative AI feature for creating personalized emails. Sometimes, the draft email shows placeholders for attributes that could have been derived from the recipient's Contact record.\n\nWhat is the most likely explanation?",
+      "options": [
+        "The user does not have Einstein Sales Emails permission assigned.",
+        "The user does not have permission to access the fields.",
+        "The user's locale language is not supported by Prompt Builder."
+      ],
+      "correct_index": 1,
+      "explanation": "If the user lacks field-level access, the placeholders cannot be resolved with actual data."
+    },
+    {
+      "question": "Universal Containers (UC) configured a new PDF file ingestion in Data Cloud with all the required fields, mapping, and search index. UC is now setting up the retriever and notices a required field is missing.\n\nHow should UC resolve this?",
+      "options": [
+        "Update the search index to include the desired field.",
+        "Modify the retriever's configuration to include the desired field.",
+        "Create a new custom Data Cloud object that includes the desired field."
+      ],
+      "correct_index": 0,
+      "explanation": "The missing field must be added to the search index so it can be retrieved."
+    },
+    {
+      "question": "Universal Containers (UC) has implemented Generative AI within Salesforce to enable summarization of a custom object called Guest. Users have reported mismatches in the generated information.\n\nIn refining its prompt design strategy, which key practices should UC prioritize?",
+      "options": [
+        "Create concise, clear, and consistent prompt templates with effective grounding, contextual role-playing, clear instructions, and iterative feedback.",
+        "Enable prompt test mode and allocate different prompt variations to subsets of users.",
+        "Submit a prompt review case to Salesforce and conduct extensive playground testing."
+      ],
+      "correct_index": 0,
+      "explanation": "Well-designed, clearly grounded prompts with iterative feedback reduce mismatches in AI-generated summaries."
+    }
+  ]
+}

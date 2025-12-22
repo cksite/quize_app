@@ -1,0 +1,95 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "Universal Containers (UC) wants to enable its sales team with automatic post-call visibility into mention of competitors, products, and other custom phrases. Which feature should the Agentforce Specialist set up to enable UC's sales team?",
+      "options": [
+        "Call Summaries",
+        "Call Explorer",
+        "Call Insights"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "An Agentforce implements Einstein Sales Emails for a sales team. The team wants to send personalized follow-up emails to leads based on their interactions and data stored in Salesforce. The Agentforce Specialist needs to configure the system to use the most accurate and up-to-date information for email generation. Which grounding technique should the Agentforce Specialist use?",
+      "options": [
+        "Ground with Apex Merge Fields",
+        "Ground with Record Merge Fields",
+        "Automatic grounding using Draft with Einstein feature"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers (UC) is discussing its AI strategy in an agile Scrum meeting. Which business requirement would lead An Agentforce to recommend connecting to an external foundational model via Einstein Studio (Model Builder)?",
+      "options": [
+        "UC wants to fine-tune model temperature.",
+        "UC wants a model fine-tuned using company data.",
+        "UC wants to change the frequency penalty of the model."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "A Service Agent at Universal Containers (UC) is designed to help customers resolve issues by searching against knowledge articles. Knowledge articles have PDF attachments that add critical details. UC reports that the agent provides excellent summaries of the knowledge articles, but seems completely unaware of the PDF attachments. How should an Agentforce Specialist configure the Data Cloud search index to include the content of these attached files?",
+      "options": [
+        "Increase article chunk size and token limits for Knowledge indexing so larger contexts capture attachment references.",
+        "Enable 'Include Related Attachments' for Knowledge-- kav and map the ContentDocumentLink unstructured data model object (UDMO).",
+        "Use Data Cloud's 'Include Attachments' option and select the ContentDocumentVersion unstructured data model object (UDMO)."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers (UC) wants to use Flow to bring data from unified Data Cloud objects to prompt templates. Which type of flow should UC use?",
+      "options": [
+        "Data Cloud-triggered flow",
+        "Template-triggered prompt flow",
+        "Unified-object linking flow"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "When creating a custom retriever in Einstein Studio, which step is considered essential?",
+      "options": [
+        "Select the search index, specify the associated data model object (DMO) and data space, and optionally define filters to narrow search results.",
+        "Define the output configuration by specifying the maximum number of results to return, and map the output fields that will ground the prompt.",
+        "Configure the search index, choose vector or hybrid search, choose the fields for filtering, the data space and model, then define the ranking method."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers (UC) has recently received an increased number of support cases. As a result, UC has hired more customer support reps and has started to assign some of the ongoing cases to newer reps. Which generative AI solution should the new support reps use to understand the details of a case without reading through each case comment?",
+      "options": [
+        "Agent",
+        "Einstein Sales Summaries",
+        "Einstein Work Summaries"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "After creating a foundation model in Einstein Studio, which hyperparameter should An Agentforce use to adjust the balance between consistency and randomness of a response?",
+      "options": [
+        "Presence Penally",
+        "Variability",
+        "Temperature"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Before activating a custom copilot action, An Agentforce would like is to understand multiple real-world user utterances to ensure the action being selected appropriately. Which tool should the Agentforce Specialist recommend?",
+      "options": [
+        "Model Playground",
+        "Agent",
+        "Copilot Builder"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Where should the Agentforce Specialist go to add/update actions assigned to a copilot?",
+      "options": [
+        "Copilot Actions page, the record page for the copilot action, or the Copilot Action Library tab",
+        "Copilot Actions page or Global Actions",
+        "Copilot Detail page, Global Actions, or the record page for the copilot action"
+      ],
+      "correct_index": 0
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "Universal Containers wants to incorporate the current order fulfillment status into a prompt for a large language model (LLM). The order status is stored in the external enterprise resource planning (ERP) system. Which data grounding technique should the Agentforce Specialist recommend?",
+      "options": [
+        "Eternal Object Record Merge Fields",
+        "External Services Merge Fields",
+        "Apex Merge Fields"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "A Salesforce Administrator is exploring the capabilities of Agent to enhance user interaction within their organization. They are particularly interested in how Agent processes user requests and the mechanism it employs to deliver responses. The administrator is evaluating whether Agent directly interfaces with a large language model (LLM) to fetch and display responses to user inquiries, facilitating a broad range of requests from users. How does Agent handle user requests In Salesforce?",
+      "options": [
+        "Agent will trigger a flow that utilizes a prompt template to generate the message.",
+        "Agent will perform an HTTP callout to an LLM provider.",
+        "Agent analyzes the user's request and LLM technology is used to generate and display the appropriate response."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers' data science team is hosting a generative large language model (LLM) on Amazon Web Services (AWS). What should the team use to access externally-hosted models in the Salesforce Platform?",
+      "options": [
+        "Model Builder",
+        "App Builder",
+        "Copilot Builder"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "An Agentforce at Universal Containers is trying to set up a new Field Generation prompt template. They take the following steps. 1. Create a new Field Generation prompt template. 2. Choose Case as the object type. 3. Select the custom field AI_Analysis_c as the target field. After creating the prompt template, the Agentforce Specialist saves, tests, and activates it. Howsoever, when they go to a case record, the AI Analysis field does not show the (Sparkle) icon on the Edit pencil. When the Agentforce Specialist was editing the field, it was behaving as a normal field. Which critical step did the Agentforce Specialist miss?",
+      "options": [
+        "They forgot to reactivate the Lightning page layout for the Case object after activating their Field Generation prompt template.",
+        "They forgot that the Case Object is not supported for Add generation as Feinstein Service Replies should be used instead.",
+        "They forgot to edit the Lightning page layout and associate the field to a prompt template"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "An Al Specialist is tasked with configuring a generative model to create personalized sales emails using customer data stored in Salesforce. The AI Specialist has already fine-tuned a large language model (LLM) on the OpenAI platform. Security and data privacy are critical concerns for the client. How should the Agentforce Specialist integrate the custom LLM into Salesforce?",
+      "options": [
+        "Create an application of the custom LLM and embed it in Sales Cloud via iFrame.",
+        "Add the fine-tuned LLM in Einstein Studio Model Builder.",
+        "Enable model endpoint on OpenAl and make callouts to the model to generate emails."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Cloud Kicks (CK) is launching a new partner portal on Experience Cloud, CK wants to provide partners with an agent that can answer questions about product specifications from the knowledge base and allow them to submit a new Lead for a potential customer they've identified. The agent must be accessible only to authenticated partner users on the portal. Which agent type is required to meet this scenario?",
+      "options": [
+        "Sales Agent",
+        "Commerce Agent",
+        "Service Agent"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "How does Secure Data Retrieval ensure that only authorized users can access necessary Salesforce data for dynamic grounding?",
+      "options": [
+        "Retrieves Salesforce data based on the 'Run As\" users permissions.",
+        "Retrieves Salesforce data based on the user's permissions executing the prompt.",
+        "Retrieves Salesforces data based on the Prompt template's object permissions."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "What is the primary function of the planner service in the Agent system?",
+      "options": [
+        "Generating record queries based on conversation history",
+        "Offering real-time language translation during conversations",
+        "Identifying copilot actions to respond to user utterances"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "When is the Agent-to-Agent (A2A4) protocol an appropriate communication choice?",
+      "options": [
+        "When agents need to invoke third-party API",
+        "When agents need to access tools",
+        "When agents need to collaborate"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "An Agentforce has created a copilot custom action using flow as the reference action type. However, it is not delivering the expected results to the conversation preview, and therefore needs troubleshooting. What should the Agentforce Specialist do to identify the root cause of the problem?",
+      "options": [
+        "In Copilot Builder within the Dynamic Panel, turn on dynamic debugging to show the inputs and outputs.",
+        "Copilot Builder within the Dynamic Panel, confirm selected action and observe the values in Input and Output sections.",
+        "In Copilot Builder, verify the utterance entered by the user and review session event logs for debug information."
+      ],
+      "correct_index": 0
+    }
+  ]
+}

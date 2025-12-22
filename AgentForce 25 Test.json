@@ -1,0 +1,95 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "An Agentforce Specialist is creating a custom action in Agentforce. Which option is available for the Agentforce Specialist to choose for the custom Agent action?",
+      "options": [
+        "Apex Trigger",
+        "SOQL",
+        "Flows"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "What is automatically created when a custom search index is created in Data Cloud?",
+      "options": [
+        "A retriever that shares the name of the custom search index.",
+        "A dynamic retriever to allow runtime selection of retriever parameters without manual configuration.",
+        "A predefined Apex retriever class that can be edited by a developer."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "An Agentforce is considering using a Field Generation prompt template type. What should the Agentforce Specialist check before creating the Field Generation prompt to ensure it is possible for the field to be enabled for generative AI?",
+      "options": [
+        "That the field chosen must be a rich text field with 255 characters or more.",
+        "That the org is set to API version 59 or higher.",
+        "That the Lightning page layout where the field will reside has been upgraded to Dynamic Forms."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "After an agent–customer conversation, which additional information does Einstein Work Summaries generate and fill apart from the summary?",
+      "options": [
+        "Sentiment Analysis and Emotion Detection",
+        "Draft Survey Request Email",
+        "Issue and Resolution"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Before activating a custom agent action, an AgentForce Specialist would like to evaluate multiple real-world user utterances to ensure the action is being selected appropriately. Which tool should the AgentForce Specialist recommend?",
+      "options": [
+        "Testing Center",
+        "AgentForce Builder",
+        "Prompt Builder"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Which business requirement presents a good use case for leveraging Einstein Prompt Builder?",
+      "options": [
+        "Forecast future sales trends based on historical data.",
+        "Identify potential high-value leads for targeted marketing campaigns.",
+        "Send reply to a request for proposal via a personalized email."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Junior sales reps want to practice objection handling and receive personalized feedback for complex deals. Which Salesforce solution should be recommended?",
+      "options": [
+        "Employee Coach",
+        "SDR Agent",
+        "Sales Coach"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "An Agentforce configured Data Masking within the Einstein Trust Layer. How should the Agentforce Specialist begin validating that the correct fields are being masked?",
+      "options": [
+        "Use Flow Debugger to inspect merge values.",
+        "Request Einstein Generative AI Audit Data from Security.",
+        "Enable the collection and storage of Einstein Generative AI Audit Data."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "One user cannot see the generative AI-enabled field icon while others can. What is the most likely cause?",
+      "options": [
+        "Prompt Template User permission set missing.",
+        "Prompt template not activated for the user.",
+        "Field Generative AI User permission set missing."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "An admin wants to invoke a prompt template from Flow and use the response in automation. Which option should be used?",
+      "options": [
+        "Invocable Apex",
+        "Flow Action",
+        "Einstein for Flow"
+      ],
+      "correct_index": 2
+    }
+  ]
+}

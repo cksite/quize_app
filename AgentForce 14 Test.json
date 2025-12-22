@@ -1,0 +1,104 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "Universal Containers has grounded a prompt template with a related list. During user acceptance testing (UAT), users are not getting the correct responses. What is causing this issue?",
+      "options": [
+        "The related list prompt template option is not enabled.",
+        "The related list is not on the parent object's page layout.",
+        "The related list is Read Only."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "An Agentforce Specialist wants to troubleshoot their Agent's performance. Where should the Agentforce Specialist go to access all user interactions with the Agent, including Agent errors, incorrectly triggered actions, and incomplete plans?",
+      "options": [
+        "Event Logs",
+        "Agent Settings",
+        "Plan Canvas"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers (UC) uses a file upload-based data library and custom prompt to support AI-driven training content. However, users report that the AI frequently returns outdated documents. Which corrective action should UC implement to improve content relevancy?",
+      "options": [
+        "Switch the data library source from file uploads to a Knowledge-based data library, because Salesforce Knowledge bases automatically manage document recency, ensuring current documents are returned.",
+        "Configure a custom retriever that includes a filter condition limiting retrieval to documents updated within a defined recent period, ensuring that only current content is used for AI responses.",
+        "Continue using the default retriever without filters, because periodic re-uploads will eventually phase out outdated documents without further configuration or the need for custom retrievers."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers plans to enhance its sales team's productivity using AI. Which specific requirement necessitates the use of Prompt Builder?",
+      "options": [
+        "Predicting the likelihood of customers churning or discontinuing their relationship with the company",
+        "Creating a draft newsletter for an upcoming tradeshow",
+        "Creating an estimated Customer Lifetime Value (CLV) with historical purchase data"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers (UC) is experimenting with using public Generative AI models and is familiar with the language required to get the information it needs. However, it can be time consuming for both UC's sales and service reps to type in the prompt to get the information they need, and ensure prompt consistency. Which Salesforce feature should the company use to address these concerns?",
+      "options": [
+        "Einstein Prompt Builder and Prompt Templates",
+        "Agent Builder and Action: Query Records",
+        "Einstein Recommendation Builder"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers is using Agentforce for Sales to find similar opportunities to help close deals faster. The team wants to understand the criteria used by the Agent to match opportunities. What is one criteria that Agentforce for Sales uses to match similar opportunities?",
+      "options": [
+        "Matched opportunities were created in the last 12 months.",
+        "Matched opportunities have a status of Closed Won from last 12 months.",
+        "Matched opportunities are limited to the same account."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "A data scientist needs to view and manage models in Einstein Studio. The data scientist also needs to create prompt templates in Prompt Builder. Which permission sets should an Agentforce Specialist assign to the data scientist?",
+      "options": [
+        "Prompt Template User and Data Cloud Admin",
+        "Data Cloud Admin and Prompt Template Manager",
+        "Prompt Template Manager and Prompt Template User"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "A customer service representative is looking at a custom object that stores travel information. They recently received a weather alert and now need to cancel flights for the customers that are related with this itinerary. The representative needs to review the Knowledge articles about canceling and rebooking the customer flights. Which Agentforce capability helps the representative accomplish this?",
+      "options": [
+        "Invoke a flow which makes a call to external data to create a Knowledge article.",
+        "Generate a Knowledge article based off the prompts that the agent enters to create steps to cancel flights.",
+        "Execute tasks based on available actions, answering questions using information from accessible Knowledge articles."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "In a Knowledge-based data library configuration, what is the primary difference between the identifying fields and the content fields?",
+      "options": [
+        "Identifying fields highlight key terms for relevance scoring, while content fields store the full text of the article for retrieval.",
+        "Identifying fields categorize articles for indexing purposes, while content fields provide a brief summary for display.",
+        "Identifying fields help locate the correct Knowledge article, while content fields enrich AI responses with detailed information."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers (UC) wants to enable its sales team to use AI to suggest recommended products from its catalog. Which type of prompt template should UC use?",
+      "options": [
+        "Record summary prompt template",
+        "Flex prompt template",
+        "Email generation prompt template"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers (UC) plans to implement prompt templates that utilize the standard foundation models. What should UC consider when building prompt templates in Prompt Builder?",
+      "options": [
+        "Train LLM with data using different writing styles including word choice, intensifiers, emojis, and punctuation.",
+        "Ask it to role-play as a character in the prompt template to provide more context to the LLM.",
+        "Include multiple-choice questions within the prompt to test the LLM's understanding of the context."
+      ],
+      "correct_index": 1
+    }
+  ]
+}

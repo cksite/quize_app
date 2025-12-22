@@ -1,0 +1,105 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "Based on the user utterance, \"Show me all the customers in New York\", which standard agent action will the planner service use?",
+      "options": [
+        "Fetch Records",
+        "Query Records",
+        "Select Records"
+      ],
+      "correct_index": 1,
+      "explanation": "The planner service uses Query Records when multiple records need to be retrieved based on filter criteria."
+    },
+    {
+      "question": "During configuration, Universal Containers (UC) forgot to grant Knowledge access to the Agentforce Service Agent. Which permission must UC add for the agent to interact with Knowledge articles and answer customer Questions effectively?",
+      "options": [
+        "Allow View Knowledge and Run Flows",
+        "Access Knowledge records and fields, and Allow View Knowledge",
+        "Access Custom Objects and Manage External Users"
+      ],
+      "correct_index": 1,
+      "explanation": "The agent requires both access to Knowledge records and the Allow View Knowledge permission to interact with articles."
+    },
+    {
+      "question": "An Agentforce Specialist turned on Einstein Generative AI in Setup. Now, the Agentforce Specialist would like to create custom prompt templates in Prompt Builder. However, they cannot access Prompt Builder in the Setup menu. What is causing the problem?",
+      "options": [
+        "The Prompt Template Manager permission set was not assigned correctly.",
+        "The Prompt Template User permission set was not assigned correctly.",
+        "The large language model (LLM) was not configured correctly in Data Cloud."
+      ],
+      "correct_index": 0,
+      "explanation": "The Prompt Template Manager permission set is required to create and manage prompt templates."
+    },
+    {
+      "question": "An Agentforce Specialist wants to ensure their custom agent action performs as expected in conversations. What should the Agentforce Specialist focus on when creating action instructions?",
+      "options": [
+        "Write concise agent action instructions and test in Agentforce Builder.",
+        "Ensure the agent action label matches the utterance's intent.",
+        "Include comprehensive detailed descriptions and perform smoke testing."
+      ],
+      "correct_index": 0,
+      "explanation": "Concise instructions help the reasoning engine understand when to invoke the action and testing ensures expected behavior."
+    },
+    {
+      "question": "Universal Containers wants to implement a customer verification process where sensitive account information can only be accessed after the customer passes identity verification. The agent must enforce this security rule deterministically without allowing the large language model (LLM) to bypass the verification requirement. What should an Agentforce Specialist recommend as the best solution?",
+      "options": [
+        "Use context variables to store verification status in the messaging session and configure the agent to check these variables through natural language prompts during each sensitive action.",
+        "Include detailed verification instructions in the agent's topic instructions explaining when customers should be verified and rely on the LLM to follow these guidelines consistently across all interactions.",
+        "Create a custom variable IsCustomerVerified set by a verification action, then apply a conditional filter using the expression IsCustomerVerified equals true to all sensitive data actions, ensuring deterministic access control that the LLM can't alter."
+      ],
+      "correct_index": 2,
+      "explanation": "Using a custom variable with conditional filters enforces deterministic access control that cannot be overridden by the LLM."
+    },
+    {
+      "question": "Universal Containers plans to enable Agentforce in Slack so teams can interact with agents directly in Slack channels. Which description represents the key steps required to enable Agentforce in Slack?",
+      "options": [
+        "Enable the default Slack channel Agentforce, and assign Slack agent access to users.",
+        "Configure the Slack workflow to invoke the Agentforce API, enabling users to interact with agents through predefined triggers and automated steps.",
+        "Configure the Slack agent connection and, in Manage Agentforce, install the agent, then assign agent access to users."
+      ],
+      "correct_index": 2,
+      "explanation": "Agentforce in Slack requires configuring the Slack agent connection, installing the agent, and assigning access to users."
+    },
+    {
+      "question": "Coral Cloud Resorts (CCR) uses Agentforce to assist customers with booking and service issues. CCR wants to implement a triage process so that: High severity requests must be escalated to a human service rep. Lower severity requests should result in creating a support case for the guest. The requirement is to achieve the highest reliability and determinism in the response from the agent. Which approach should an Agentforce Specialist recommend?",
+      "options": [
+        "Write the triage and routing logic in Topic Instructions using an IF, THEN, ELSE pattern.",
+        "Use absolute keywords like \"Always\" and \"Never\" in Topic Instructions to enforce logic.",
+        "Create a custom variable severityLevel populated by a Triage action. Add filters so the \"Escalate to human service rep\" action only runs when severityLevel = 'High', and the \"Create Support Case\" action runs only when severityLevel != 'High'."
+      ],
+      "correct_index": 2,
+      "explanation": "Custom variables with action filters provide deterministic and reliable control over agent behavior."
+    },
+    {
+      "question": "Coral Cloud Resorts wants visibility into credit usage associated with testing. Which feature supports this?",
+      "options": [
+        "Agentforce Analytics",
+        "Digital Wallet",
+        "Testing Center"
+      ],
+      "correct_index": 1,
+      "explanation": "Digital Wallet provides visibility into credit usage, including testing consumption."
+    },
+    {
+      "question": "Universal Containers implements custom agent actions to enhance its customer service operations. The development team needs to understand the core components of a custom agent action to ensure proper configuration and functionality. What should the development team review in the custom agent action configuration to identify one of the core components of a custom agent action?",
+      "options": [
+        "Output Types",
+        "Action Triggers",
+        "Instructions"
+      ],
+      "correct_index": 2,
+      "explanation": "Instructions are a core component that guide how and when the agent action is invoked."
+    },
+    {
+      "question": "What should Universal Containers consider when deploying a Service Agent with multiple topics and agent actions to production?",
+      "options": [
+        "Deploy flows or Apex after agents, topics, and agent actions.",
+        "Ensure all dependencies are included, test coverage is appropriate, and configuration settings are aligned with production. Plan for version management and post-deployment activation.",
+        "Ensure the agent is deployed without testing due to the probabilistic nature of AI."
+      ],
+      "correct_index": 1,
+      "explanation": "Production deployment requires proper dependency management, testing, and alignment with production configurations."
+    }
+  ]
+}

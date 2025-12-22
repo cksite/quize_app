@@ -1,0 +1,85 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "An Agentforce Specialist is tasked to optimize a business process flow by assigning actions to agents within the Salesforce Agentforce Platform.\n\nWhat is the correct method for the Agentforce Specialist to assign actions to an Agent?",
+      "options": [
+        "Assign the action to a Topic first on the Agent Actions detail page.",
+        "Assign the action to a Topic first in Agent Builder.",
+        "Assign the action to a Topic first on Action Builder."
+      ],
+      "correct_index": 1,
+      "explanation": "Actions must be assigned to Topics in Agent Builder so the reasoning engine can evaluate and invoke them."
+    },
+    {
+      "question": "Which object stores the conversation transcript between the customer and the agent?",
+      "options": [
+        "Case",
+        "Messaging End User",
+        "Messaging Session"
+      ],
+      "correct_index": 2,
+      "explanation": "Messaging Session stores the full transcript of the interaction between the customer and the agent."
+    },
+    {
+      "question": "A Salesforce Administrator wants to generate personalized, targeted emails that incorporate customer interaction data and leverage large language models (LLMs). The admin also wants to reuse templates for different products and customers.\n\nWhich solution approach should the admin leverage?",
+      "options": [
+        "Create a Field Generation prompt template type.",
+        "Use Sales Email standard templates.",
+        "Create a Sales Email prompt template type."
+      ],
+      "correct_index": 2,
+      "explanation": "Sales Email prompt templates are designed for reusable, personalized email generation using LLMs."
+    },
+    {
+      "question": "Universal Containers (UC) implements a custom retriever to improve the accuracy of AI-generated responses. UC notices that the retriever is returning too many irrelevant results, making the responses less useful.\n\nWhat should UC do to ensure only relevant data is retrieved?",
+      "options": [
+        "Define filters to narrow the search results based on specific conditions.",
+        "Change the search index to a different data model object (DMO).",
+        "Increase the maximum number of results returned."
+      ],
+      "correct_index": 0,
+      "explanation": "Filters limit the scope of retrieval to relevant data, improving response accuracy."
+    },
+    {
+      "question": "Universal Containers wants its AI agent to answer customer questions with precise and up-to-date information.\n\nHow does an Agentforce Data Library simplify and enable this?",
+      "options": [
+        "It automates the ingestion and OCR processing of PDFs and enables SQL-based retrieval.",
+        "It automates the ingestion and indexing of data and creates a default retriever for grounding prompts and agents.",
+        "It automates taxonomical classification for keyword-only search."
+      ],
+      "correct_index": 1,
+      "explanation": "Agentforce Data Libraries handle ingestion, indexing, and retriever creation for grounding AI responses."
+    },
+    {
+      "question": "How is Data Cloud leveraged by the Answer Questions with Knowledge action in Agentforce?",
+      "options": [
+        "Data Cloud provides real-time data streams to update Knowledge articles.",
+        "Data Cloud stores and manages the indexed Knowledge articles.",
+        "Data Cloud is not required for Knowledge access."
+      ],
+      "correct_index": 1,
+      "explanation": "Knowledge articles are indexed and retrieved from Data Cloud for grounding responses."
+    },
+    {
+      "question": "Universal Containers (UC) wants to ensure the effectiveness, reliability, and trust of its agents prior to deploying them in production. UC would like to efficiently test a large and repeatable number of utterances.\n\nWhat should the Agentforce Specialist recommend?",
+      "options": [
+        "Deploy the agent in a Q/A sandbox and review utterance analysis reports.",
+        "Test the agent using the LLM UI before activation.",
+        "Create a CSV file with test cases in Agentforce Testing Center using the testing template."
+      ],
+      "correct_index": 2,
+      "explanation": "Agentforce Testing Center supports scalable and repeatable testing using CSV-based test cases."
+    },
+    {
+      "question": "Universal Containers (UC) currently tracks Leads with a custom object. UC is preparing to implement the Sales Development Representative (SDR) Agent.\n\nWhich consideration should UC keep in mind?",
+      "options": [
+        "Agentforce SDR only works with the standard Lead object.",
+        "Agentforce SDR only works with Opportunities.",
+        "Agentforce SDR only supports custom objects associated with Accounts."
+      ],
+      "correct_index": 0,
+      "explanation": "The SDR Agent works only with the standard Salesforce Lead object."
+    }
+  ]
+}

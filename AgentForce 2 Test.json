@@ -1,0 +1,105 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "Universal Containers implements three custom actions to get three distinct types of sales summaries for its users. Users are complaining that they are not getting the right summary based on their utterances.\n\nWhat should the Agentforce Specialist investigate as the root cause?",
+      "options": [
+        "Review that the custom action is assigned to an Agent.",
+        "Review the action instructions to ensure they are unique.",
+        "Ensure the input and output types are correctly chosen."
+      ],
+      "correct_index": 1,
+      "explanation": "When multiple similar actions exist, unique and clear action instructions help the LLM correctly distinguish which action to invoke based on the user’s utterance."
+    },
+    {
+      "question": "The marketing team at Universal Containers is looking for a way to personalize emails based on customer behavior, preferences, and purchase history.\n\nWhy should the team use Agent as the solution?",
+      "options": [
+        "To generate relevant content when engaging with each customer",
+        "To analyze past campaign performance",
+        "To send automated emails to all customers"
+      ],
+      "correct_index": 0,
+      "explanation": "Agents can generate contextual and personalized content dynamically based on customer data and interactions."
+    },
+    {
+      "question": "Universal Containers aims to streamline the sales team's daily tasks by using AI.\n\nWhen considering these new workflows, which improvement requires the use of Prompt Builder?",
+      "options": [
+        "Populate an AI-generated time-to-close estimation to opportunities",
+        "Populate an AI generated summary field for sales contracts",
+        "Populate an AI generated lead score for new leads"
+      ],
+      "correct_index": 1,
+      "explanation": "Prompt Builder is used for generating textual summaries, such as contract summaries, rather than predictions or scoring."
+    },
+    {
+      "question": "What is the main purpose of Prompt Builder?",
+      "options": [
+        "A tool for developers to use in Visual Studio Code that creates prompts for Apex programming, assisting developers in writing code more efficiently.",
+        "A tool that enables companies to create reusable prompts for large language models (LLMs), bringing generative AI responses to their flow of work.",
+        "A tool within Salesforce offering real-time AI-powered suggestions and guidance to users, improving productivity and decision-making."
+      ],
+      "correct_index": 1,
+      "explanation": "Prompt Builder allows admins to create reusable, grounded prompt templates for generative AI use cases across Salesforce."
+    },
+    {
+      "question": "Universal Containers implements Custom Agent Actions to enhance its customer service operations. The development team needs to understand the core components of a Custom Agent Action to ensure proper configuration and functionality.\n\nWhat should the development team review in the Custom Agent Action configuration to identify one of the core components of a Custom Agent Action?",
+      "options": [
+        "Action Triggers",
+        "Instructions",
+        "Output Types"
+      ],
+      "correct_index": 1,
+      "explanation": "Instructions are a core component of a Custom Agent Action because they guide the LLM on when and how to execute the action."
+    },
+    {
+      "question": "Universal Containers implements Custom Copilot Actions to enhance its customer service operations. The development team needs to understand the core components of a Custom Copilot Action to ensure proper configuration and functionality.\n\nWhat should the development team review in the Custom Copilot Action configuration to identify one of the core components of a Custom Copilot Action?",
+      "options": [
+        "Instructions",
+        "Output Types",
+        "Action Triggers"
+      ],
+      "correct_index": 1,
+      "explanation": "Output Types are a core component of Custom Copilot Actions and define the structure of the response returned by the action."
+    },
+    {
+      "question": "Universal Containers wants to incorporate CRM data as well-formatted JSON in a prompt to a large language model (LLM).\n\nWhat is an important consideration for this requirement?",
+      "options": [
+        "\"CRM data to JSON\" checkbox must be selected when creating a prompt template.",
+        "Apex code can be used to return a JSON formatted merge field.",
+        "JSON format should be enabled in Prompt Builder Settings."
+      ],
+      "correct_index": 1,
+      "explanation": "Using Apex to return JSON-formatted data allows precise control over the structure of CRM data used in prompts."
+    },
+    {
+      "question": "Universal Containers (UC) wants to improve the efficiency of addressing customer questions and reduce agent handling time with AI-generated responses. The agents should be able to leverage their existing knowledge base and identify whether the responses are coming from the large language model (LLM) or from Salesforce Knowledge.\n\nWhich step should UC take to meet this requirement?",
+      "options": [
+        "Turn on Service AI Grounding, Grounding with Case, and Service Replies.",
+        "Turn on Service Replies, Service AI Grounding, and Grounding with Knowledge.",
+        "Turn on Service AI Grounding and Grounding with Knowledge."
+      ],
+      "correct_index": 1,
+      "explanation": "Service Replies combined with Service AI Grounding and Knowledge grounding allow agents to see whether responses are generated by the LLM or sourced from Knowledge."
+    },
+    {
+      "question": "Universal Containers (UC) is implementing Einstein Generative AI to improve customer insights and interactions. UC needs audit and feedback data to be accessible for reporting purposes.\n\nWhat is a consideration for this requirement?",
+      "options": [
+        "Storing this data requires Data Cloud to be provisioned.",
+        "Storing this data requires a custom object for data to be configured.",
+        "Storing this data requires Salesforce big objects."
+      ],
+      "correct_index": 0,
+      "explanation": "Einstein Generative AI audit and feedback data is stored and reported through Data Cloud."
+    },
+    {
+      "question": "An Agentforce Specialist needs to create a prompt template to fill a custom field named Latest Opportunities Summary on the Account object with information from the three most recently opened opportunities.\n\nHow should the Agentforce Specialist gather the necessary data for the prompt template?",
+      "options": [
+        "Select the latest Opportunities related list as a merge field.",
+        "Create a flow to retrieve the opportunity information.",
+        "Select the Account Opportunity object as a resource when creating the prompt template."
+      ],
+      "correct_index": 1,
+      "explanation": "A Flow allows the Agentforce Specialist to retrieve and control the specific opportunity data needed for the prompt template."
+    }
+  ]
+}

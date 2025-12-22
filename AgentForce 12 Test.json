@@ -1,0 +1,95 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "An Agentforce Specialist builds a new Service Agent that uses a custom action built on a flow. The agent has been tested in a sandbox and is now ready to deploy. What is a key consideration regarding the activation status of the agent in the production environment?",
+      "options": [
+        "The agent will be activated automatically only if the flow is also active.",
+        "The agent must be manually activated in production, regardless of its status in the sandbox.",
+        "The agent will automatically be activated upon successful deployment."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers has set up a Service Agent to allow customers to look up their order status. The topic setup includes: Name: Order Inquiry Classification Description: Handles user requests to look up order status, including tracking details and delivery estimates for orders placed within the last 90 days. Scope: Your job is only to assist authenticated users in looking up the status of their orders placed within the last 90 days. If the order is pending delivery, provide the tracking number and estimated delivery date. Do not handle inquiries for orders older than 90 days. Which information will be used by the Agentforce reasoning engine to choose this topic?",
+      "options": [
+        "Topic Name and Classification Description",
+        "Topic Name and Scope",
+        "Classification Description and Scope"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers needs to bring individual customer warranties from an external system into Data Cloud. They want Agentforce to return warranty-related responses only for accounts whose warranty status is active. Which search approach should the Agentforce Specialist configure to ensure warranty-related information is retrieved correctly?",
+      "options": [
+        "Depend on Agentforce instructions to enforce warranty constraints and include only WarrantyStatus = Active results.",
+        "Store the account's warranty status in an Agentforce custom variable to dynamically filter warranties during retrieval.",
+        "Use Hybrid Search and apply pre-filtering in a new custom retriever for matching accounts and where the WarrantyStatus = Active field."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "The Agentforce Specialist for Coral Cloud Resorts wants to create an agent that will automate the resolution of a large portion of guest complaints related to their vacation experiences. The agent will be able to offer upgrades, hotel credit, and other complimentary options. The agent will also be in charge of escalating the case to a human when a guest has suffered a major disruption (such as cancellation). Following Salesforce best practices, which type of agent should the Agentforce Specialist create?",
+      "options": [
+        "Sales Agent with a Flex prompt template",
+        "Custom Agent with a Flex prompt template",
+        "Service Agent with a Flex prompt template"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "An agent has been developed with multiple topics and agent actions that use flows and Apex. Which option is available for deploying these to production?",
+      "options": [
+        "Use only change sets because the Salesforce CLI does not currently support the deployment of agent-related metadata.",
+        "Deploy the flows and Apex using normal deployment tools and manually create the agent-related items in production.",
+        "Deploy flows, Apex, and all agent-related items using either change sets or the Salesforce CLI/Metadata API."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "What is a key benefit of the Agent-to-Agent (A2A) protocol?",
+      "options": [
+        "Provides a standardized framework for cross-vendor agent discovery and communication",
+        "Allows auto-onboard third-party agents without additional contracts, trust scores, or shared identity controls",
+        "Provides a standardized runtime engine for internal agent discovery and communication"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers is indexing millions of product manuals where users may ask both structured queries (model numbers) and natural language Questions (for example, \"How do I reset my device?\"). Which retrieval approach should the company use?",
+      "options": [
+        "Use keyword search only, since model numbers dominate queries.",
+        "Use semantic search only, as natural language is always preferred.",
+        "Use hybrid search to combine keyword precision with semantic flexibility."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "When using a prompt template, what should an Agentforce Specialist consider with their grounding data and chosen model?",
+      "options": [
+        "Review the token limit in the Einstein Trust Layer.",
+        "Ensure queries used for grounding employ offset so the token limits of models are not exceeded.",
+        "Review the model limitation in Prompt Builder versus the grounding data size."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "An Agentforce Specialist created a Field Generation prompt template. What should the Agentforce Specialist do to expose the template to the user?",
+      "options": [
+        "Use a screen flow to associate the Field Generation prompt template.",
+        "Associate the template with the form field on the Lightning page.",
+        "Call a template using an autolaunched flow."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers (UC) is tracking web activities in Data Cloud for a unified contact. It wants to use that information in a prompt template to help extract insights from the data. Assuming that the Contact object is one of the objects associated with the prompt template, what is a valid way for UC to do this?",
+      "options": [
+        "Create a prompt template that takes a list of all Data Cloud activity records as input to pass to the large language model (LLM).",
+        "Call the prompt directly from Data Cloud with a web tracking activity included in the prompt definition.",
+        "Add the activity records as an enrichment related list to the Contact, then pass the Contact into a prompt template workspace using related list grounding."
+      ],
+      "correct_index": 2
+    }
+  ]
+}

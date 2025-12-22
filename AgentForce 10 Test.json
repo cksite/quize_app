@@ -1,0 +1,85 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "Universal Containers needs to restrict access to refund processing actions so only customers with Active account status can initiate refunds. How should an Agentforce Specialist apply the restriction deterministically?",
+      "options": [
+        "Create a context variable for the account status field and apply a conditional filter AccountStatus equals \"Active\" to refund actions.",
+        "Include step-by-step instructions at the topic level and action level explaining the rules and examples.",
+        "Create a Flex Prompt Template that has instructions to check for account status."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Coral Cloud Resorts is implementing Agentforce retrieval. Customers sometimes type ambiguous terms (for example, \"package\" could mean vacation package or baggage). Which retrieval strategy best balances precision and contextual disambiguation?",
+      "options": [
+        "Use hybrid search, which combines keyword matching for precision with semantic embeddings for context.",
+        "Use keyword search only, which prioritizes exact term matching but risks missing contextual meaning."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "The Agentforce Specialist for Cloud Kicks wants to create an agent that will allow the sales staff to schedule their daily tasks, and assist in providing detailed explanations behind prices and deals of the products. Following Salesforce best practices, which type of agent should the Agentforce Specialist create?",
+      "options": [
+        "Service Agent",
+        "Employee Agent",
+        "Sales Agent"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers' administrator has developed a new agent in a sandbox environment and now wants to deploy it to production. What should the administrator do to deploy an agent?",
+      "options": [
+        "Export agent components as JSON files and manually import them into production using the Metadata API.",
+        "Create an outbound change set with all the necessary agent components, then upload to production.",
+        "Manually recreate the agent configuration, topics, and actions in production because change sets cannot be used."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "A developer is using the Salesforce CLI to deploy agent components from a sandbox to production. They recently made a change to several topics, instructions, and actions. Which metadata component should the developer include in their package.xml file that contains all of the topics and actions an agent will interact with?",
+      "options": [
+        "EinsteinAiPlannerBundle",
+        "genAiPlannerBundle",
+        "BotBundle"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers (UC) wants to empower its marketing team with AI capabilities that help employees quickly find campaign data, generate creative content, and manage project tasks. The solution should also allow marketers to receive personalized support, surface relevant information, and complete work directly in Salesforce. Which AI solution should UC implement?",
+      "options": [
+        "Service Agent",
+        "Employee Agent",
+        "Sales Coach Agent"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "In the context of retriever and search indexes, what best describes the data preparation process in Data Cloud?",
+      "options": [
+        "Data preparation involves loading, chunking, vectorizing, and storing content in a search-optimized manner to support retrieval from the vector database.",
+        "Data preparation entails aggregating, normalizing, and encoding structured datasets to ensure compliance with data governance and security protocols.",
+        "Data preparation focuses on real-time data ingestion and dynamic indexing to generate dynamic grounding reference data without preprocessing steps."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "What is the purpose of applying filters in a custom retriever configuration?",
+      "options": [
+        "Filters automatically encrypt and mask sensitive fields in the search index to ensure that only non-confidential information is retrieved for public queries.",
+        "Filters narrow the search results by applying up to 10 conditions based on fields defined in the search index, thereby enhancing the relevancy of the content returned.",
+        "Filters reformat and aggregate multiple documents into a single summary output to streamline and unify retriever output for more efficient and accurate AI grounding."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers is setting up the data library configuration within the Agentforce Builder. What is true regarding Agentforce Data Libraries?",
+      "options": [
+        "An agent can have only one data library assigned to it.",
+        "Each data category can only have one data library.",
+        "Only data library owners can assign it to the agent."
+      ],
+      "correct_index": 0
+    }
+  ]
+}

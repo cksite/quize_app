@@ -1,0 +1,113 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "Universal Containers aims to streamline the sales team's daily tasks by using AI. When considering these new workflows, which improvement requires the use of Prompt Builder?",
+      "options": [
+        "Populate an AI-generated time-to close estimation to opportunities",
+        "Populate an AI generated summary field for sales contracts.",
+        "Populate an AI generated lead score for new leads."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "How does the AI Retriever function within Data Cloud?",
+      "options": [
+        "It performs contextual searches over an indexed repository to quickly fetch the most relevant documents, enabling grounding AI responses with trustworthy, verifiable information.",
+        "It monitors and aggregates data quality metrics across various data pipelines to ensure only high-integrity data is used for strategic decision-making.",
+        "It automatically extracts and reformats raw data from diverse sources into standardized datasets for use in historical trend analysis and forecasting."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers (UC) is creating a new custom prompt template to populate a field with generated output. UC enabled the Einstein Trust Layer to ensure AI Audit data is captured and monitored for adoption and possible enhancements. Which prompt template type should UC use and which consideration should UC review?",
+      "options": [
+        "Field Generation, and that Dynamic Fields is enabled",
+        "Field Generation, and that Dynamic Forms is enabled",
+        "Flex, and that Dynamic Fields is enabled"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers (UC) wants its AI agent to return responses quickly. UC needs to optimize the retriever's configuration to ensure minimal latency when grounding AI responses. Which configuration aspect should UC prioritize?",
+      "options": [
+        "Configure the retriever to operate in dynamic mode so that it modifies the search Index structure at runtime.",
+        "Ensure the retriever's filters are defined to limit the scope of each search efficiently.",
+        "Increase the recency bias setting for the retriever limiting scope to more recent data."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers (UC) needs to save agents time with AI-generated case summaries. UC has implemented the Work Summary feature. What does Einstein consider when generating a summary?",
+      "options": [
+        "Generation is grounded with conversation context, Knowledge articles, and cases.",
+        "Generation is grounded with existing conversation context only.",
+        "Generation is grounded with conversation context and Knowledge articles."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers deployed the new Agentforce Sales Development Representative (SDR) into production, but sales reps are saying they can't find it. What is causing this issue?",
+      "options": [
+        "Sales rep users profiles are missing the Allow SDR Agent permission.",
+        "Sales rep users do not have access to the SDR Agent object.",
+        "Sales rep users are missing the Use SDR Agent permission set."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers' service team wants to customize the standard case summary response from Agentforce. What should the Agentforce Specialist do to achieve this?",
+      "options": [
+        "Create a custom Record Summary prompt template for the Case object.",
+        "Summarize the Case with a standard Agent action.",
+        "Customize the standard Record Summary template for the Case object."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "During configuration, Universal Containers (UC) forgot to grant Knowledge access to the Agentforce Service Agent. Which permission must UC add for the agent to interact with Knowledge articles and answer customer questions effectively?",
+      "options": [
+        "Allow View Knowledge and Run Flows",
+        "Access Knowledge records and fields, and Allow View Knowledge",
+        "Access Custom Objects and Manage External Users"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Northern Trail Outfitters (NTO) wants to configure Einstein Trust Layer in its production org but is unable to see the option on the Setup page. After provisioning Data Cloud, which step must an AI Specialist take to make this option available to NTO?",
+      "options": [
+        "Turn on Agent",
+        "Turn on Einstein Generative AI",
+        "Turn on Prompt Builder"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "An Agentforce created a custom Agent action, but it is not being picked up by the planner service in the correct order. Which adjustment should the AI Specialist make in the custom Agent action instructions for the planner service to work as expected?",
+      "options": [
+        "Specify the dependent actions with the reference to the action API name.",
+        "Specify the profiles or custom permissions allowed to invoke the action.",
+        "Specify the LLM model provider and version to be used to invoke the action."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers (UC) wants to create a new Sales Email prompt template in Prompt Builder using the \"Save As\" function. However, UC notices that the new template produces different results compared to the standard Sales Email prompt due to missing hyperparameters. What should UC do to ensure the new prompt template produces results comparable to the standard Sales Email prompts?",
+      "options": [
+        "Use Model Playground to create a model configuration with the specified parameters.",
+        "Manually add the hyperparameters to the new template.",
+        "Revert to using the standard template without modifications."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers' sales team engages in numerous video sales calls with prospects across the nation. Sales management wants an easy way to understand key information such as deal terms or customer sentiments. Which Einstein Generative AI feature should an Agentforce Specialist recommend for this request?",
+      "options": [
+        "Einstein Call Summaries",
+        "Einstein Conversation Insights",
+        "Einstein Video KPI"
+      ],
+      "correct_index": 1
+    }
+  ]
+}

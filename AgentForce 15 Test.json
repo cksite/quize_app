@@ -1,0 +1,95 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "Universal Containers needs its sales reps to be able to only execute prompt templates. What should the company use to achieve this requirement?",
+      "options": [
+        "Prompt Template Manager permission set",
+        "Prompt Execute Template permission set",
+        "Prompt Template User permission set"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "An Agentforce Specialist is tasked with analyzing Agent interactions looking into user inputs, requests, and queries to identify patterns and trends. What functionality allows the Agentforce Specialist to achieve this?",
+      "options": [
+        "User Utterances dashboard",
+        "Agent Event Logs dashboard",
+        "AI Audit and Feedback Data dashboard"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers has an active standard email prompt template that does not fully deliver on the business requirements. Which steps should an Agentforce Specialist take to use the content of the standard prompt email template in question and customize it to fully meet the business requirements?",
+      "options": [
+        "Save as New Version and edit as needed.",
+        "Clone the existing template and modify as needed.",
+        "Save as New Template and edit as needed."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers (UC) wants to implement an AI-powered customer service agent that can retrieve proprietary policy documents that are stored as PDFs and ensure responses are grounded in approved company data, not generic LLM knowledge. What should UC do first?",
+      "options": [
+        "Add the files to the content, and then select the data library option.",
+        "Expand the AI agent's scope to search all Salesforce records.",
+        "Set up an Agentforce Data Library for AI retrieval of policy documents."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers (UC) would like to implement a Sales Development Representative (SDR) Agent. Which channel consideration should UC be aware of while implementing it?",
+      "options": [
+        "SDR Agent must also be deployed in the company website.",
+        "SDR Agent must be deployed in Messaging channel.",
+        "SDR Agent only works in Email channel."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "The sales team at a hotel resort would like to generate a guest summary about the guests' interests and provide recommendations based on their activity preferences captured in each guest profile. They want the summary to be available only on the contact record page. Which AI capability should the team use?",
+      "options": [
+        "Model Builder",
+        "Prompt Builder",
+        "Agent Builder"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Which element in the Omni-Channel flow should be used to connect the flow with the agent?",
+      "options": [
+        "Assignment",
+        "Decision",
+        "Route Work Action"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "What is the importance of Action Instructions when creating a custom Agent action?",
+      "options": [
+        "Action Instructions tell the large language model (LLM) which action to use.",
+        "Action Instructions define the expected user experience of an action.",
+        "Action Instructions tell the user how to call this action in a conversation."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers (UC) wants to limit an agent's access to Knowledge articles, while deploying Answer Questions with Knowledge action. How should UC achieve this?",
+      "options": [
+        "Define scope instructions to the agent specifying a list of allowed article titles or IDs.",
+        "Update the Data Library Retriever to filter on a custom field on the Knowledge article.",
+        "Assign Data Categories to Knowledge articles, and define Data Category filters in the Agentforce Data Library."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "When configuring a prompt template, an Agentforce Specialist previews the results of the prompt template they've written. They see two distinct text outputs: Resolution and Response. Which information does the Resolution text provide?",
+      "options": [
+        "It shows which sensitive data is masked before it is sent to the LLM.",
+        "It shows the response from the LLM based on the sample record.",
+        "It shows the full text that is sent to the Trust Layer."
+      ],
+      "correct_index": 2
+    }
+  ]
+}

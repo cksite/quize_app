@@ -1,0 +1,95 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "Before activating a custom agent action, an Agentforce Specialist would like to evaluate multiple real-world user utterances to ensure the action is being selected appropriately. Which tool should the Agentforce Specialist recommend?",
+      "options": [
+        "Testing Center",
+        "Agentforce Builder",
+        "Prompt Builder"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Coral Cloud Resorts needs to ensure its booking agent executes actions in a specific sequence: First retrieve available sessions, then verify customer eligibility, and finally create the booking. The current implementation allows the large language model (LLM) to execute these actions in any order, causing booking failures. Which approach should an Agentforce Specialist implement?",
+      "options": [
+        "Create custom variables that store completion status for each step, then implement conditional filters on subsequent actions requiring previous variables to be populated, ensuring deterministic execution order.",
+        "Configure topic, classification description, and action instructions with priority levels and sequence indicators to guide the reasoning engine in selecting the correct action order automatically.",
+        "Write comprehensive topic instructions detailing the exact sequence of actions using numbered steps and explicit ordering requirements for the reasoning engine to follow during booking workflows."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "When a verified customer in a help center says, \"I want to upgrade my service plan,\" an AI agent needs to complete the following asks: Verify identity and entitlement. Create a new quote. Calculate a prorated upgrade amount. Escalate to an Account Executive (AE) only if the reorder exceeds US$25,000. Which type of agent should an Agentforce Specialist build to support this use case?",
+      "options": [
+        "Service Agent to resolve the case end-to-end and create a new opportunity for the sales team",
+        "Sales Agent to handle the upsell and large-deal escalation",
+        "Employee Agent to orchestrate internal logistics and finance"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Coral Cloud Resorts is uploading thousands of new HTML knowledge articles files for a resort launch. To ensure Agentforce retrieves accurate responses quickly, which chunking strategy should be used when creating a new index?",
+      "options": [
+        "Conversation-based chunking",
+        "Semantic based passage extraction",
+        "Section-aware chunking"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Which statement explains why a company might prefer a hybrid search index in Data Cloud for Agentforce?",
+      "options": [
+        "Vector embeddings in hybrid search are prefiltered by keyword matches, reducing computational overhead and improving response accuracy.",
+        "Hybrid search indexes process queries faster than vector search because they eliminate the need for semantic embedding.",
+        "Hybrid search indexes support both literal keyword matches and semantic recall, useful when queries mix specific terms and intent."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers (UC) is setting up a new Agentforce Service Agent. The company has sensitive medical product research stored internally and wants to ensure the agent cannot access it. What should UC do?",
+      "options": [
+        "Assign the Agentforce Service Agent user the lowest possible role in the organization's hierarchy to block access.",
+        "Disable the Agentforce Service Agent's ability to use any Salesforce custom object or related fields.",
+        "Follow the principle of least privilege and avoid granting permission to view the Medical Product object or related fields."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers (UC) needs to create a prompt template that provides a detailed product description based on the latest product data. The description will be used in marketing materials to ensure consistency and accuracy. Which prompt template type should UC use?",
+      "options": [
+        "Record Summary",
+        "Sales Email",
+        "Field Generation"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "What does it mean when a prompt template version is described as immutable?",
+      "options": [
+        "Every modification on a template will be saved as a new version automatically.",
+        "After a prompt template version is activated, no further changes can be saved to that version.",
+        "Only the latest version of a template can be activated."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Which best practice should UC follow to grant access to this information for the Agentforce Service Agent?",
+      "options": [
+        "Update the Object and Field access in the Einstein Agent User Profile so that the Agentforce Service Agents will always get the necessary access.",
+        "Update the Object and Field access in the AgentforceServiceAgentUserPsg permission set group that is already assigned to the Agentforce Service Agent user.",
+        "Create a new permission set with the Einstein Agent License and enable Read access to the custom fields and custom objects, and assign it to the Agentforce Service Agent user."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers wants to systematically validate agent responses before deployment using a scalable testing process. Which Testing Center approach should the company implement?",
+      "options": [
+        "Manually interact with the agent in Builder until responses seem correct.",
+        "Use pilot users in production to flag incorrect responses post launch.",
+        "Upload a structured CSV test template and run batch test cases in Testing Center."
+      ],
+      "correct_index": 2
+    }
+  ]
+}

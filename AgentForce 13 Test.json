@@ -1,0 +1,95 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "Universal Containers wants to test agents while preserving real data and isolating from production. Which environment should the company use with Testing Center?",
+      "options": [
+        "Use personal developer orgs unrepresentative of production data",
+        "Use production org directly with test assertions",
+        "Use sandbox environments replicated from production for safe testing"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Coral Cloud Resorts wants to handle frequent customer misspellings of package names in queries. Which approach should the Agentforce Specialist implement?",
+      "options": [
+        "Hybrid search",
+        "Vector search",
+        "Keyword search"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers (UC) has configured a data library and wants to restrict indexing of knowledge articles to articles which are only publicly available in their knowledge base. UC also wants the agent to link sources that the large language model (LLM) grounded its response on. Which settings should help UC with this?",
+      "options": [
+        "In the data library setting window, under Knowledge Settings, enable Use Public Knowledge Article and select Show sources.",
+        "In the data library setting window, under Knowledge Settings, enable Use Public Knowledge Article. It is not possible to display articles that the LLM grounded its response in.",
+        "Use Data Categories to categorize publicly available articles to index. Sources are automatically displayed when knowledge articles are categorized as Public."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers (UC) is preparing and defining success criteria for Agentforce Testing Center test cases. Which details should UC specify as the expected output to ensure the tests accurately reflect the agent's functionality?",
+      "options": [
+        "Expected Flow API Name",
+        "Expected Prompt Template Name",
+        "Expected Topic API Name"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers (UC) has a library of custom-built personalized investment portfolio APIs, and is planning to extend it to agents. Which method should UC's agent choose to dynamically use the best API service?",
+      "options": [
+        "Agent-to-Agent (A2A) protocol support",
+        "Model Context Protocol (MCP) server support",
+        "MuleSoft connector for custom hosted processes"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Coral Cloud Resorts is about to start testing its concierge agent with guests. Which metrics should be captured to monitor the performance, correctness, and user experience?",
+      "options": [
+        "Response times, accuracy and relevance of answers, and resolution success",
+        "Response performance, tone, and CSATS",
+        "Agent performance, token usage, and conversation duration"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Cloud Kicks (CK) is launching a new partner portal on Experience Cloud. CK wants to provide partners with an agent that can answer Questions about product specifications from the knowledge base and allow them to submit a new Lead for a potential customer they've identified. The agent must be accessible only to authenticated partner users on the portal. Which agent type is required to meet this scenario?",
+      "options": [
+        "Sales Agent",
+        "Commerce Agent",
+        "Service Agent"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers (UC) recently added a custom flow for processing returns and created a new agent action. What should UC do to ensure the Agentforce Service Agent can run this new flow as part of the new agent action?",
+      "options": [
+        "Recreate the flow using the Agentforce Agent user",
+        "Assign the Run Flows permission to the Agentforce Agent user",
+        "Assign the Manage Users permission to the Agentforce Agent user"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Universal Containers is building a digital shopping assistant that needs to dynamically generate product recommendations using information from the company's external product recommendation predictive model through APIs. Which Agentforce capability should make it easier for the agent to consume the external product recommendation tool?",
+      "options": [
+        "Model Context Protocol (MCP)",
+        "Hugging Face",
+        "Agent-to-Agent (A2A) protocol"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers is using Agentforce for Sales to find similar opportunities to help close deals faster. The team wants to understand the criteria used by the agent to match opportunities. What is one criteria that Agentforce for Sales uses to match similar opportunities?",
+      "options": [
+        "Matched opportunities were created in the last 12 months",
+        "Matched opportunities have a status of Closed Won from last 12 months",
+        "Matched opportunities are limited to the same account"
+      ],
+      "correct_index": 1
+    }
+  ]
+}

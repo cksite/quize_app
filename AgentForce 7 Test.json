@@ -1,0 +1,115 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "A sales manager needs to contact leads at scale with hyper-relevant solutions and customized communications in the most efficient manner possible. Which Salesforce solution best suits this need?",
+      "options": [
+        "Einstein Lead follow-up",
+        "Einstein Sales Assistant",
+        "Prompt Builder"
+      ],
+      "correct_index": 0,
+      "explanation": "Einstein Lead Follow-Up helps sales teams contact leads at scale by automatically generating personalized follow-up emails using AI."
+    },
+    {
+      "question": "Before activating a custom Agent action, an Agentforce Specialist would like to understand multiple real-world user utterances to ensure the action is being selected appropriately. Which tool should the Agentforce Specialist recommend?",
+      "options": [
+        "Agentforce",
+        "Agent Builder",
+        "Model Playground"
+      ],
+      "correct_index": 1,
+      "explanation": "Agent Builder allows testing and previewing agent behavior to ensure correct action selection before activation."
+    },
+    {
+      "question": "Before activating a custom copilot action, an Agentforce Specialist would like to understand multiple real-world user utterances to ensure the action being selected appropriately. Which tool should the Agentforce Specialist recommend?",
+      "options": [
+        "Model Playground",
+        "Agent",
+        "Copilot Builder"
+      ],
+      "correct_index": 2,
+      "explanation": "Copilot Builder is used to configure, test, and validate copilot actions using real-world utterances."
+    },
+    {
+      "question": "Universal Containers (UC) wants to enable its sales reps to explore opportunities that are similar to previously won opportunities by entering the utterance, \"Show me other opportunities like this one.\" How should UC achieve this with Agents?",
+      "options": [
+        "Create a custom Agent action calling an Apex class.",
+        "Use the standard Agent action.",
+        "Create a custom Agent action calling a flow."
+      ],
+      "correct_index": 1,
+      "explanation": "Standard Agent actions support finding similar records and should be used when available."
+    },
+    {
+      "question": "An Agentforce Specialist is setting up a new org and needs to ensure that users can create and execute prompt templates. Which permission sets should the Agentforce Specialist assign?",
+      "options": [
+        "Prompt Template Manager for creating templates and Data Cloud Admin for executing templates",
+        "Data Cloud Admin for creating templates and Prompt Template User for executing templates",
+        "Prompt Template Manager for creating templates and Prompt Template User for executing templates"
+      ],
+      "correct_index": 2,
+      "explanation": "Prompt Template Manager allows creation of templates, while Prompt Template User allows execution."
+    },
+    {
+      "question": "Universal Containers' Agent Action includes several Apex classes for the new Agentforce Agent. What’s an important consideration when deploying Apex that is invoked by an Agent Action?",
+      "options": [
+        "Apex classes invoked by an Agent Action may be deployed with less than 75% test coverage as long as the agent is not activated in production.",
+        "The Apex classes may bypass the 75% code coverage requirement as long as they are only used by the agent.",
+        "The Apex classes must have at least 75% code coverage from unit tests, and all dependencies must be in the deployment package."
+      ],
+      "correct_index": 2,
+      "explanation": "All Apex deployed to production must meet the 75% test coverage requirement."
+    },
+    {
+      "question": "Universal Containers (UC) has a legacy system that needs to integrate with Salesforce. UC wishes to create a digest of account action plans using the generative API feature. Which API service should UC use?",
+      "options": [
+        "SOAP API",
+        "REST API",
+        "Metadata API"
+      ],
+      "correct_index": 1,
+      "explanation": "Generative APIs are accessed via REST API, which is best for external integrations."
+    },
+    {
+      "question": "What is the role of the large language model (LLM) in understanding intent and executing an Agent Action?",
+      "options": [
+        "Determine a user's topic access and sort actions by priority to be executed",
+        "Identify the best matching topic and actions and correct order of execution",
+        "Find similar requested topics and provide the actions that need to be executed"
+      ],
+      "correct_index": 1,
+      "explanation": "The LLM identifies intent, selects the correct topic and actions, and determines execution order."
+    },
+    {
+      "question": "Which scenario best demonstrates when an Agentforce Data Library is most useful for improving an AI agent's response accuracy?",
+      "options": [
+        "When the AI agent must provide answers based on a curated set of policy documents that are stored, regularly updated, and indexed in the data library.",
+        "When data is being retrieved from Snowflake using zero-copy for vectorization and retrieval.",
+        "When the AI agent needs to combine data from disparate sources based on mutually common data."
+      ],
+      "correct_index": 0,
+      "explanation": "Data Library is designed for grounded responses using curated and indexed documents."
+    },
+    {
+      "question": "Which standard Agent action helps sales reps draft personalized emails to prospects by generating text based on previous successful communications?",
+      "options": [
+        "Agent Action: Find Similar Opportunities",
+        "Agent Action: Summarize Record",
+        "Agent Action: Draft or Revise Sales Email"
+      ],
+      "correct_index": 2,
+      "explanation": "Draft or Revise Sales Email generates personalized outreach based on past communications."
+    },
+    {
+      "question": "Universal Containers (UC) wants to build an Agentforce Service Agent that provides the latest, active, and relevant policy and compliance information to customers. What should UC do to ensure the agent retrieves the right information?",
+      "options": [
+        "Manually add policy responses into the AI model to prevent hallucinations.",
+        "Enable the agent to search all internal records and past customer inquiries.",
+        "Set up an Agentforce Data Library to store and index policy documents for AI retrieval."
+      ],
+      "correct_index": 2,
+      "explanation": "Agentforce Data Library ensures grounded, up-to-date responses using indexed Knowledge content."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "An Agentforce is considering using a Field Generation prompt template type.\n\nWhat should the Agentforce Specialist check before creating the Field Generation prompt to ensure it is possible for the field to be enabled for generative AI?",
+      "options": [
+        "That the field chosen must be a rich text field with 255 characters or more.",
+        "That the org is set to API version 59 or higher.",
+        "That the Lightning page layout where the field will reside has been upgraded to Dynamic Forms."
+      ],
+      "correct_index": 1,
+      "explanation": "Field Generation prompt templates require the org to be on API version 59 or higher to enable generative AI on fields."
+    },
+    {
+      "question": "Universal Containers (UC) is using standard Service AI Grounding. UC created a custom rich text field to be used with Service AI Grounding.\n\nWhat should UC consider when using standard Service AI Grounding?",
+      "options": [
+        "Service AI Grounding only works with Case and Knowledge objects.",
+        "Service AI Grounding only supports String and Text Area type fields.",
+        "Service AI Grounding visibility works in system mode."
+      ],
+      "correct_index": 1,
+      "explanation": "Standard Service AI Grounding supports only String and Text Area type fields."
+    },
+    {
+      "question": "A Salesforce Agentforce Specialist is reviewing the feedback from a customer about the ineffectiveness of the prompt template.\n\nWhat should the Agentforce Specialist do to ensure the prompt template's effectiveness?",
+      "options": [
+        "Monitor and refine the template based on user feedback.",
+        "Use the Prompt Builder Scorecard to help monitor.",
+        "Periodically change the template’s grounding object."
+      ],
+      "correct_index": 1,
+      "explanation": "The Prompt Builder Scorecard helps monitor performance and refine prompts based on effectiveness metrics."
+    },
+    {
+      "question": "An account manager is preparing for an upcoming customer call and wishes to get a snapshot of key data points from accounts, contacts, leads, and opportunities in Salesforce.\n\nWhich feature provides this?",
+      "options": [
+        "Sales Summaries",
+        "Sales Insight Summary",
+        "Work Summaries"
+      ],
+      "correct_index": 1,
+      "explanation": "Sales Insight Summary provides a consolidated snapshot of key CRM data points."
+    },
+    {
+      "question": "Universal Containers is setting up the data library configuration within the Agentforce Builder.\n\nWhat is true regarding Agentforce Data Libraries?",
+      "options": [
+        "Only data library owners can assign it to the agent.",
+        "Each data category can only have one data library.",
+        "An agent can have only one data library assigned to it."
+      ],
+      "correct_index": 2,
+      "explanation": "Each agent can have only one Data Library assigned for grounding."
+    },
+    {
+      "question": "An Agentforce Specialist is creating a prompt template to assist support reps in drafting responses to customer complaints.\n\nTo ensure the responses are empathetic and helpful, what is a key element to include in the prompt template?",
+      "options": [
+        "A direct instruction to the large language model (LLM) to role-play as a character.",
+        "A list of keywords related to customer complaints.",
+        "The entire history of the customer's previous interactions with the company."
+      ],
+      "correct_index": 0,
+      "explanation": "Role-play instructions guide the tone and empathy of AI-generated responses."
+    },
+    {
+      "question": "Universal Containers wants to assign agents to improve department efficiency.\n\nWhich configuration ensures the right tasks are handled by the right agents?",
+      "options": [
+        "SDR Agent for lead qualification, Service Agent for support tickets, Employee Agent for HR requests.",
+        "Sales Coach Agent for lead qualification and Service Agent for HR requests.",
+        "One Service Agent to handle all scenarios."
+      ],
+      "correct_index": 0,
+      "explanation": "Assigning specialized agents ensures each task is handled efficiently."
+    },
+    {
+      "question": "Universal Containers (UC) wants to improve the efficiency of addressing customer questions and reduce agent handling time with AI-generated responses. The agents should be able to leverage their existing knowledge base and identify whether the responses are coming from the large language model (LLM) or from Salesforce Knowledge.\n\nWhich step should UC take to meet this requirement?",
+      "options": [
+        "Turn on Service AI Grounding, Grounding with Case, and Service Replies.",
+        "Turn on Service Replies, Service AI Grounding, and Grounding with Knowledge.",
+        "Turn on Service AI Grounding and Grounding with Knowledge."
+      ],
+      "correct_index": 1,
+      "explanation": "Service Replies combined with Knowledge grounding allow agents to see the source of responses."
+    },
+    {
+      "question": "Universal Containers (UC) has implemented Generative AI within Salesforce to enable summarization of a custom object called Guest. Users have reported mismatches in the generated information.\n\nIn refining its prompt design strategy, which key practices should UC prioritize?",
+      "options": [
+        "Enable prompt test mode and allocate different prompt variations to subsets of users.",
+        "Create concise, clear, and consistent prompt templates with effective grounding, contextual role-playing, clear instructions, and iterative feedback.",
+        "Submit a prompt review case to Salesforce and test extensively in the playground."
+      ],
+      "correct_index": 1,
+      "explanation": "Clear, well-grounded, and iteratively refined prompts reduce mismatches in generated outputs."
+    },
+    {
+      "question": "Universal Containers (UC) has effectively utilized prompt templates to update summary fields on Lightning record pages. An admin now wishes to incorporate similar functionality into UC's automation process using Flow.\n\nHow can the admin get a response from this prompt template from within a flow to use as part of UC's automation?",
+      "options": [
+        "Invocable Apex",
+        "Flow Action",
+        "Einstein for Flow"
+      ],
+      "correct_index": 2,
+      "explanation": "Einstein for Flow allows flows to invoke prompt templates and use generated responses."
+    }
+  ]
+}

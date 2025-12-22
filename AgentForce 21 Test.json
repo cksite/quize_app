@@ -1,0 +1,113 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "Universal Containers (UC) wants to enable its sales team to use AI to suggest recommended products from its catalog. Which type of prompt template should UC use?",
+      "options": [
+        "Record summary prompt template",
+        "Email generation prompt template",
+        "Flex prompt template"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "The AgentForce Specialist for Cloud Kicks wants to create an agent that will allow the sales staff to schedule their daily tasks and assist in providing detailed explanations behind product prices and deals. Following Salesforce best practices, which type of agent should they create?",
+      "options": [
+        "Service Agent",
+        "Employee Agent",
+        "Sales Agent"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "A support team handles a high volume of chat interactions and needs a solution to provide quick, relevant responses to customer inquiries. Responses must be grounded in the organization's knowledge base to maintain consistency and accuracy. Which feature in Einstein for Service should the support team use?",
+      "options": [
+        "Einstein Service Replies",
+        "Einstein Reply Recommendations",
+        "Einstein Knowledge Recommendations"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers (UC) is looking to improve its sales team's productivity by providing real-time insights and recommendations during customer interactions. Why should UC consider using Agentforce Sales Agent?",
+      "options": [
+        "To track customer interactions for future analysis",
+        "To automate the entire sales process for maximum efficiency",
+        "To streamline the sales process and increase conversion rates"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "A sales manager needs to contact leads at scale with hyper-relevant solutions and customized communications in the most efficient manner possible. Which Salesforce solution best suits this need?",
+      "options": [
+        "Einstein Sales Assistant",
+        "Prompt Builder",
+        "Einstein Lead follow-up"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Once a data source is chosen for an Agentforce Data Library, what is true about changing that data source later?",
+      "options": [
+        "The data source can be changed through the Data Cloud settings.",
+        "The Data Retriever can be reconfigured to use a different data source.",
+        "The data source cannot be changed after it is selected."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers has a new AI project. What should an Agentforce Specialist consider when adding a related list on the Account object to be used in the prompt template?",
+      "options": [
+        "After selecting a related list from the Account, use the field picker to choose merge fields in Prompt Builder.",
+        "Prompt Builder must be used to assign the fields from the related list as a JSON format.",
+        "The fields for the related list are based on the default page layout of the Account for the current user."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Which feature in the Einstein Trust Layer helps to minimize the risks of jailbreaking and prompt injection attacks?",
+      "options": [
+        "Secure Data Retrieval and Grounding",
+        "Data Masking",
+        "Prompt Defense"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "What is true of Agentforce Testing Center?",
+      "options": [
+        "Running tests risks modifying CRM data in a production environment.",
+        "Running tests does not consume Einstein Requests.",
+        "Agentforce Testing Center can only be used in a production environment."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Coral Cloud Resorts (CCR) wants to configure its agent so that booking actions are only available when a customer's membership tier is \"Premium\" or \"Elite\". This business rule must be enforced deterministically. What should CCR implement?",
+      "options": [
+        "Set up custom validation rules on the underlying booking objects to prevent non-eligible customers from completing bookings.",
+        "Configure topic instructions that clearly state booking actions should only be used for Premium or Elite customers and include examples.",
+        "Create a context variable mapped to the customer's membership tier field, then add a conditional filter on MembershipTier."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Universal Containers wants to allow its service agents to query the current fulfillment status of an order with natural language. There is an existing autolaunched flow to query the information from Oracle ERP, which is the system of record for the order fulfillment process. How should an Agentforce Specialist apply the power of conversational AI to this use case?",
+      "options": [
+        "Create a custom Agent action which calls a flow.",
+        "Configure the Integration Flow Standard Action in Agent Builder.",
+        "Create a Flex prompt template in Prompt Builder."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Universal Containers needs a tool that can analyze voice and video call records to provide insights on competitor mentions, coaching opportunities, and other key information. Which feature provides insights about competitor mentions and coaching opportunities?",
+      "options": [
+        "Call Summaries",
+        "Einstein Sales Insights",
+        "Call Explorer"
+      ],
+      "correct_index": 2
+    }
+  ]
+}

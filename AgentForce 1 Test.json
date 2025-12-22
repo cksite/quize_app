@@ -1,0 +1,105 @@
+{
+  "time_limit": 1800,
+  "questions": [
+    {
+      "question": "An Agentforce implements Einstein Sales Emails for a sales team. The team wants to send personalized follow-up emails to leads based on their interactions and data stored in Salesforce. The Agentforce Specialist needs to configure the system to use the most accurate and up-to-date information for email generation.\n\nWhich grounding technique should the Agentforce Specialist use?",
+      "options": [
+        "Ground with Apex Merge Fields",
+        "Ground with Record Merge Fields",
+        "Automatic grounding using Draft with Einstein feature"
+      ],
+      "correct_index": 1,
+      "explanation": "Record Merge Fields pull real-time data directly from Salesforce records, ensuring the generated emails use the most accurate and up-to-date information."
+    },
+    {
+      "question": "Which use case is best supported by Salesforce Agent's capabilities?",
+      "options": [
+        "Bring together a conversational interface for interacting with AI for all Salesforce users, such as developers and ecommerce retailers.",
+        "Enable Salesforce admin users to create and train custom large language models (LLMs) using CRM data.",
+        "Enable data scientists to train predictive AI models with historical CRM data using built-in machine learning capabilities."
+      ],
+      "correct_index": 0,
+      "explanation": "Salesforce Agents are designed to provide conversational AI experiences across Salesforce users, not to train custom LLMs or predictive ML models."
+    },
+    {
+      "question": "Universal Containers (UC) needs to create a prompt template that provides a detailed product description based on the latest product data. The description will be used in marketing materials to ensure consistency and accuracy.\n\nWhich prompt template type should UC use?",
+      "options": [
+        "Record Summary",
+        "Sales Email",
+        "Field Generation"
+      ],
+      "correct_index": 2,
+      "explanation": "Field Generation prompt templates are used to generate and populate structured fields such as product descriptions using generative AI."
+    },
+    {
+      "question": "Universal Containers wants to systematically validate agent responses before deployment using a scalable testing process.\n\nWhich Testing Center approach should the company implement?",
+      "options": [
+        "Upload a structured CSV test template and run batch test cases in Testing Center.",
+        "Manually interact with the agent in Builder until responses seem correct.",
+        "Use pilot users in production to flag incorrect responses post-launch."
+      ],
+      "correct_index": 0,
+      "explanation": "The Testing Center supports scalable and repeatable testing through CSV-based batch test cases."
+    },
+    {
+      "question": "What is the role of the large language model (LLM) in understanding intent and executing an Agent Action?",
+      "options": [
+        "Find similar requested topics and provide the actions that need to be executed.",
+        "Identify the best matching topic and actions and correct order of execution.",
+        "Determine a user’s topic access and sort actions by priority to be executed."
+      ],
+      "correct_index": 1,
+      "explanation": "The LLM interprets user intent and determines the correct topic and sequence of actions to execute."
+    },
+    {
+      "question": "An Agentforce is tasked to optimize a business process flow by assigning actions to agents within the Salesforce Agentforce Platform.\n\nWhat is the correct method for the Agentforce Specialist to assign actions to an Agent?",
+      "options": [
+        "Assign the action to a Topic first on the Agent Actions detail page.",
+        "Assign the action to a Topic first in Agent Builder.",
+        "Assign the action to a Topic first on Action Builder."
+      ],
+      "correct_index": 1,
+      "explanation": "Actions must be assigned to Topics in Agent Builder so the agent can reason over and invoke them."
+    },
+    {
+      "question": "After an agent selects a topic, what is an important factor the reasoning engine uses to select the action?",
+      "options": [
+        "The priority given to each action.",
+        "The explicit order of actions in the topic.",
+        "The name and instructions of the actions."
+      ],
+      "correct_index": 0,
+      "explanation": "The reasoning engine uses action priority to decide which action to execute under a topic."
+    },
+    {
+      "question": "Universal Containers wants to incorporate CRM data as well-formatted JSON in a prompt to a large language model (LLM).\n\nWhat is an important consideration for this requirement?",
+      "options": [
+        "\"CRM data to JSON\" checkbox must be selected when creating a prompt template.",
+        "Apex code can be used to return a JSON formatted merge field.",
+        "JSON format should be enabled in Prompt Builder Settings."
+      ],
+      "correct_index": 1,
+      "explanation": "Apex can be used to construct and return JSON-formatted data for use as a merge field in prompts."
+    },
+    {
+      "question": "Coral Cloud Resorts wants to handle frequent customer misspellings of package names in queries.\n\nWhich approach should the Agentforce Specialist implement?",
+      "options": [
+        "Hybrid search",
+        "Vector search",
+        "Keyword search"
+      ],
+      "correct_index": 1,
+      "explanation": "Vector search supports semantic similarity and can handle misspellings and variations in user queries."
+    },
+    {
+      "question": "Universal Containers recently launched a pilot program to integrate conversational AI into its CRM business operations with Agentforce Agents.\n\nHow should the Agentforce Specialist monitor Agents’ usability and the assignment of actions?",
+      "options": [
+        "Run a report on the Platform Debug Logs.",
+        "Query the Agent log data using the Metadata API.",
+        "Run Agent Analytics."
+      ],
+      "correct_index": 2,
+      "explanation": "Agent Analytics provides insights into agent usage, usability, and action performance."
+    }
+  ]
+}
