@@ -3,6 +3,8 @@
 A simple, flexible, and user-friendly web application that allows users to **create and attempt custom quizzes** using JSON files or predefined quiz data.  
 Users can set their own **test duration**, upload quiz data, and get **instant results with explanations**.
 
+🔗 **Website URL**  
+👉 https://cksite.github.io/quize_app/
 ---
 
 ## 🚀 Features
